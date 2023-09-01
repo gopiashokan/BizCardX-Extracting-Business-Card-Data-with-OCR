@@ -49,7 +49,7 @@ To use this project, follow these steps:
 
 BizCardX offers a range of powerful features to streamline the extraction and management of business card information with a strong emphasis on data protection.
 
-**Data Extraction**
+**Business Card Data Extraction**
 
 - **Effortless Extraction**: Easily extract information from business cards by uploading an image, thanks to BizCardX's integration with the easyOCR library.
 
@@ -59,19 +59,19 @@ BizCardX offers a range of powerful features to streamline the extraction and ma
 
 - **User-Friendly GUI**: Navigate and interact with the user-friendly graphical interface for a seamless experience.
 
-**Data Upload to SQL Database**
+**Data Storage and Authentication**
 
 - **Secure Authentication**: Safeguard your data with user authentication, ensuring that only authorized users can access and manage it.
 
 - **Data Verification**: Review and confirm the extracted data before it's securely stored in the database. Make necessary changes with confidence.
 
-**Edit Data in Database**
+**Data Management and Editing**
 
 - **Credential Verification**: To edit database records, verify your credentials (username and password) for added security.
 
 - **Effortless Editing**: Easily modify your data as needed, and watch as the changes are automatically updated in the database.
 
-**Delete Data in Database**
+**Secure Data Deletion**
 
 - **Protected Data**: Ensure the safety of your data with strong user authentication, preventing unauthorized access or deletion.
 
