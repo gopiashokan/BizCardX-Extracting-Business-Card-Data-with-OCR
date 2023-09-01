@@ -59,7 +59,7 @@ BizCardX offers a range of powerful features to streamline the extraction and ma
 
 - **User-Friendly GUI**: Navigate and interact with the user-friendly graphical interface for a seamless experience.
 
-## Data Upload to SQL Database
+**Data Upload to SQL Database**
 
 - **Secure Authentication**: Safeguard your data with user authentication, ensuring that only authorized users can access and manage it.
 
