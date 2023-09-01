@@ -2,10 +2,7 @@
 
 **Introduction**
 
-BizCardX is a Streamlit application designed to simplify the process of extracting essential information from business cards using Optical Character Recognition (OCR). This tool allows users to upload a business card image and automatically retrieve information such as the company name, cardholder name, designation, contact details, and location. 
-
-The extracted data is presented through an intuitive graphical user interface (GUI).BizCardX prioritizes data security with user authentication. Users can securely save the extracted information into a database and access advanced features such as reading, updating, and deleting data through the Streamlit UI. Discover an efficient and secure way to manage business card information with BizCardX.
-
+BizCardX is a Streamlit application that streamlines business card data extraction through OCR. Users can effortlessly upload a card image to retrieve essential details, including company name, cardholder name, contact info, and more. With a focus on data security, BizCardX incorporates user authentication, enabling secure data storage and advanced data management via the Streamlit UI. Experience an efficient and secure solution for business card information management with BizCardX.
 
 **Table of Contents**
 
@@ -18,6 +15,7 @@ The extracted data is presented through an intuitive graphical user interface (G
 7. Contact
 
 **Key Technologies and Skills**
+
 - OCR (Optical Character Recognition)
 - Data Extraction
 - Python
