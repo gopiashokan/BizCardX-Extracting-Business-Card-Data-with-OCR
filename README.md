@@ -32,6 +32,7 @@ pip install easyocr
 pip install Pillow
 pip install numpy
 pip install pandas
+pip install pymongo
 pip install psycopg2
 pip install streamlit
 pip install streamlit_option_menu
@@ -53,6 +54,10 @@ BizCardX offers a range of powerful features to streamline the extraction and ma
 **Business Card Data Extraction**
 
 - **Effortless Extraction**: Easily extract information from business cards by uploading an image, thanks to BizCardX's integration with the easyOCR library.
+
+```python
+Note: Google Colab facilitates data extraction through EasyOCR, and the extracted data is stored in a MongoDB database. Subsequently, we can access this data from the MongoDB database using local integrated development environments (IDEs) such as VS Code or PyCharm.
+```
 
 - **Structured Presentation**: The extracted data is elegantly presented alongside the uploaded image, ensuring a clear and organized overview.
 
