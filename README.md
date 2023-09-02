@@ -53,10 +53,9 @@ BizCardX offers a range of powerful features to streamline the extraction and ma
 
 **Business Card Data Extraction**
 
-- **Effortless Extraction**: Easily extract information from business cards by uploading an image, thanks to BizCardX's integration with the easyOCR library.
-
-```python
-Note: Google Colab facilitates data extraction through EasyOCR, and the extracted data is stored in a MongoDB database. Subsequently, we can access this data from the MongoDB database using local integrated development environments (IDEs) such as VS Code or PyCharm.
+- **Effortless Extraction**: Google Colab simplifies the extraction of information from business cards by allowing users to upload an image. This is made possible through BizCardX's integration with the easyOCR library. The extracted data is then stored in a MongoDB database, and it can be accessed from local integrated development environments (IDEs) such as VS Code or PyCharm.
+```
+Encountering errors while extracting image data using EasyOCR in local IDEs led to the adoption of Google Colab for this process
 ```
 
 - **Structured Presentation**: The extracted data is elegantly presented alongside the uploaded image, ensuring a clear and organized overview.
