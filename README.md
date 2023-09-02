@@ -27,7 +27,7 @@ BizCardX is a Streamlit application that effortlessly streamlines business card 
 
 To run this project, you need to install the following packages:
 
-```python
+```
 pip install easyocr
 pip install Pillow
 pip install numpy
