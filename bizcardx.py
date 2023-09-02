@@ -8,6 +8,7 @@ import pymongo
 import psycopg2
 import streamlit as st
 from streamlit_option_menu import option_menu
+from PIL import Image
 from io import BytesIO
 
 
@@ -205,8 +206,8 @@ class data_extraction:
     data7 = data6[1:]
 
     if len(data7)==1:
-        state = data4[7].split()[0]
-        pincode = data4[7].split()[1]
+        state = data7[0].split()[0]
+        pincode = data7[0].split()[1]
     elif len(data7)==2:
         state = data7[0]
         pincode = data7[1]
@@ -345,7 +346,8 @@ class sql:
         with col1:
             st.subheader('Business Card Image')
             edit_image = image_decoded(option, user_name, password)
-            st.image(edit_image)
+            img2 = edit_image.resize(size=(470, 300))
+            st.image(img2)
 
         with col2:
             sql_data = sql.get_record(image_name, user_name, password)
