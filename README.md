@@ -54,10 +54,10 @@ BizCardX offers a range of powerful features to streamline the extraction and ma
 **Business Card Data Extraction**
 
 - **Effortless Extraction**: Easily extract information from business cards by uploading an image, thanks to BizCardX's integration with the easyOCR library.
-  ```
-  Encountering errors while extracting image data using EasyOCR in local IDEs led to the adoption of 
-  Google Colab for this process
-  ```
+```
+Encountering errors while extracting image data using EasyOCR in local IDEs led to the adoption of 
+Google Colab for this process
+```
 
 - **Structured Presentation**: The extracted data is elegantly presented alongside the uploaded image, ensuring a clear and organized overview.
 
