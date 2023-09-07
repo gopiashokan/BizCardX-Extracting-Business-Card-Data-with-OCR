@@ -16,9 +16,9 @@ BizCardX is a Streamlit application that effortlessly streamlines business card 
 
 **Key Technologies and Skills**
 
-- OCR (Optical Character Recognition)
-- Data Extraction
 - Python
+- EasyOCR
+- Data Extraction
 - Streamlit (GUI development)
 - PostgreSQL (Database management)
 
@@ -53,7 +53,7 @@ BizCardX offers a range of powerful features to streamline the extraction and ma
 
 **Business Card Data Extraction**
 
-- **Effortless Extraction**: Easily extract information from business cards by uploading an image, thanks to BizCardX's integration with the easyOCR library.
+- **Effortless Extraction**: Easily extract information from business cards by uploading an image, thanks to BizCardX's integration with the easyOCR (Optical Character Recognition) library.
 ```
 Encountering errors while extracting image data using EasyOCR in local IDEs led to the adoption of 
 Google Colab for this process
